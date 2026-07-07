@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+
+}
+.title{
+    color: brown;
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: 700;
+    margin-left: 49%;
+}
+.line{
+    background-color: aqua;
+    height: 150px;
+    width:100%;
+    margin-top: 60px;
+}
+.bt1{
+    background-color: rgb(255, 82, 20);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 40%;
+    font-weight: 700;
+    font-size: x-large;
+    font-family: cursive;
+}
+.bt2{
+    background-color: rgb(26, 255, 0);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-size: x-large;
+    font-weight: 700;
+    font-family:cursive;
+}
