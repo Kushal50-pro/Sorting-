@@ -37,3 +37,18 @@ body{
     font-weight: 700;
     font-family:cursive;
 }
+#graph{
+    display:flex;
+    align-items:flex-end;
+    gap:5px;
+    height:200px;
+    margin-top: 480px;
+    margin-left: 420px;
+}
+
+.graph{
+    width:40px;
+    background:green;
+    color:white;
+    text-align:center;
+}
