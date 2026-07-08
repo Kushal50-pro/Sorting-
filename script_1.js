@@ -4,14 +4,14 @@ function fetchData() {
     .then(response => response.json())
     .then(data => {
 
-        arr = []
+        arr = [];
         for(let i =0 ; i < 10; i++){
 
             let randomIndex =
-            math.floor(math.random() * data.product.length);
+            math.floor(math.random() * data.products.length);
 
             arr.push(
-                data.product[randomIndex].price
+                data.products[randomIndex].price
             );
         }
 
