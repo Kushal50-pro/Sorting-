@@ -4,9 +4,10 @@ function fetchData() {
     .then(response => response.json())
     .then(data => {
 
-        arr = data.products
-        .slice(0,10)
-        .map(item => item.price);
+        arr = []
+        for(let i =0 ; i < 10; i++){
+            arr.push(data.products[i].price);
+        }
 
         arr.sort(() => Math.random() - 0.5);
         showGraph();
