@@ -5,9 +5,10 @@ function fetchData() {
     .then(data => {
 
         arr = data.products
-            .slice(0,10)
-            .map(item => item.price);
+        .slice(0,10)
+        .map(item => item.price);
 
+        arr.sort(() => Math.random() - 0.5);
         showGraph();
     });
 }
