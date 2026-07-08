@@ -6,10 +6,15 @@ function fetchData() {
 
         arr = []
         for(let i =0 ; i < 10; i++){
-            arr.push(data.products[i].price);
+
+            let randomIndex =
+            math.floor(math.random() * data.product.length);
+
+            arr.push(
+                data.product[randomIndex].price
+            );
         }
 
-        arr.sort(() => Math.random() - 0.5);
         showGraph();
     });
 }
